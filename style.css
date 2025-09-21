@@ -1,6 +1,37 @@
 /* Starter CSS file */
 body {
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
-  background: lightgrey;
+  background-color: lightgrey;
+  color: black;
 }
+header {
+  background-color: tan;
+  color: black;
+  text-align: center;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+}
+main {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+}
+h1, h2, h3 {
+  color: black
+}
+p{
+  color: dark-grey;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
