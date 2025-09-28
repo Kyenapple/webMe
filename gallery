@@ -7,72 +7,62 @@
 </head>
 <body>
   <header>
-    <h1>Mural Gallery</h1>
+    <h1>My Mural Gallery</h1>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="intro.html">Introduction</a></li>
-        <li><a href="mural1.html">Mural 1</a></li>
-        <li><a href="mural2.html">Mural 2</a></li>
-      </ul>
+      <a href="index.html">Home</a> |
+      <a href="mural1.html">Mural 1</a> |
+      <a href="mural2.html">Mural 2</a>
     </nav>
   </header>
+
   <main>
-      <section>
-        <h2>Mural 1: Winnie the Pooh Theme</h2>
-        <div class="gallery-row">
-        <figure>
-          <img src="images/mural1.jpg" alt="Winnie the Pooh Mural">
-          <figcaption>Main mural view</figcaption>
-        </figure>
-        <figure>
-          <img src="images/step1-character.jpg" alt="Winnie and Piglet">
-          <figcaption>Step 1: Characters</figcaption>
-        </figure>
-        <figure>
-          <img src="images/step2-tree.jpg" alt="Tree sketch">
-          <figcaption>Step 2: Tree layout</figcaption>
-        </figure>
-        <figure>
-          <img src="images/step3-finishedbase.jpg" alt="Base paint">
-          <figcaption>Step 3: Base paint</figcaption>
-        </figure>
-        <figure>
-          <img src="images/step4-details.jpg" alt="Final details">
-          <figcaption>Step 4: Final touches</figcaption>
-        </figure>
-      </div>
+    <section>
+      <h2>Winnie the Pooh Mural</h2>
+      <figure>
+        <img src="mural1.jpg" alt="Full mural view" style="width:100%; max-width:600px;">
+        <figcaption>Main mural view</figcaption>
+      </figure>
+      <figure>
+        <img src="step1-character.jpg" alt="Step 1: Characters" style="width:100%; max-width:500px;">
+        <figcaption>Step 1: Sketching and painting the main characters</figcaption>
+      </figure>
+      <figure>
+        <img src="step2-tree.jpg" alt="Step 2: Tree layout" style="width:100%; max-width:500px;">
+        <figcaption>Step 2: Sketching the tree and laying out base colors</figcaption>
+      </figure>
+      <figure>
+        <img src="step3-finishedbase.jpg" alt="Step 3: Finished base" style="width:100%; max-width:500px;">
+        <figcaption>Step 3: Finishing base paint and starting log painting</figcaption>
+      </figure>
+      <figure>
+        <img src="step4-details.jpg" alt="Step 4: Final details" style="width:100%; max-width:500px;">
+        <figcaption>Step 4: Adding finishing details</figcaption>
+      </figure>
     </section>
 
     <section>
-      <h2>Mural 2: Hot Air Balloon Theme</h2>
-      <div class="gallery-row">
-        <figure>
-          <img src="images/mural2.jpg" alt="Hot Air Balloon Mural">
-          <figcaption>Main mural view</figcaption>
-        </figure>
-        <figure>
-          <img src="images/step1-tapping.jpg" alt="Taping design">
-          <figcaption>Step 1: Taping design</figcaption>
-        </figure>
-        <figure>
-          <img src="images/step2-ballooncart.jpg" alt="Balloon and cart">
-          <figcaption>Step 2: Balloon & cart</figcaption>
-        </figure>
-        <figure>
-          <img src="images/step3-rollercoaster.jpg" alt="Roller coaster">
-          <figcaption>Step 3: Roller coaster</figcaption>
-        </figure>
-        <figure>
-          <img src="images/step4-final.jpg" alt="Final details">
-          <figcaption>Step 4: Final touches</figcaption>
-        </figure>
-      </div>
+      <h2>Hot Air Balloon Mural</h2>
+      <figure>
+        <img src="mural2.jpg" alt="Balloon mural view" style="width:100%; max-width:600px;">
+        <figcaption>Main mural view</figcaption>
+      </figure>
+      <figure>
+        <img src="step1-tapping.jpg" alt="Step 1: Tapping the wall" style="width:100%; max-width:500px;">
+        <figcaption>Step 1: Tapping the wall and sketching layout</figcaption>
+      </figure>
+      <figure>
+        <img src="step2-ballooncart.jpg" alt="Step 2: Balloon cart sketch" style="width:100%; max-width:500px;">
+        <figcaption>Step 2: Sketching the balloon cart</figcaption>
+      </figure>
+      <figure>
+        <img src="step3-rollercoaster.jpg" alt="Step 3: Rollercoaster scene" style="width:100%; max-width:500px;">
+        <figcaption>Step 3: Painting the rollercoaster scene</figcaption>
+      </figure>
+      <figure>
+        <img src="step4-final.jpg" alt="Step 4: Final details" style="width:100%; max-width:500px;">
+        <figcaption>Step 4: Final touches and protective coating</figcaption>
+      </figure>
     </section>
   </main>
 </body>
 </html>
-
-
-
-
