@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My Paintings</title>
+	<title>Hand-Painted Wall Art</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,17 +12,28 @@
 		<p>This website is to showcase my work and connect with others. Learn about me, view my artwork, and get in touch.</p>
 	</header>
 	<nav>
-		<ul>
-			<Li><a href="index.html">Home</a>a></Li>
-			<Li><a href="intro.html">Introduction</a>a></li>
-			<Li><a href="mural1.html">Mural 1</a>a></Li>
-			<Li><a href="mural2.html">Mural 2</a></Li>
-			<Li><a href="gallery.html">Gallery</a>></Li>
+		<button id="menu-toggle" aria-label="Toggle menu">Menu</button>
+		<ul id="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="intro.html">Introduction</a></li>
+			<li><a href="mural1.html">Mural 1</a></li>
+			<li><a href="mural2.html">Mural 2</a></li>
+			<li><a href="gallery.html">Gallery</a>></li>
 		</ul>
 	</nav>
 	<main>
 		<h2>My Artwork Featured</h2>
-		</p>You can find two of my finished murals as well as some of my other completed works through my navigation above.</p>
+		<p>You can find two of my finished murals as well as some of my other completed works through my navigation above.</p>
 	</main>
+	<script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('show');
+  });
+</script>
+
+
 </body>
 </html>
