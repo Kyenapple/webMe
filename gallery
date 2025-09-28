@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mural Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mural Gallery</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="intro.html">Introduction</a></li>
+        <li><a href="mural1.html">Mural 1</a></li>
+        <li><a href="mural2.html">Mural 2</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+      <section>
+        <h2>Mural 1: Winnie the Pooh Theme</h2>
+        <div class="gallery-row">
+        <figure>
+          <img src="images/mural1.jpg" alt="Winnie the Pooh Mural">
+          <figcaption>Main mural view</figcaption>
+        </figure>
+        <figure>
+          <img src="images/step1-character.jpg" alt="Winnie and Piglet">
+          <figcaption>Step 1: Characters</figcaption>
+        </figure>
+        <figure>
+          <img src="images/step2-tree.jpg" alt="Tree sketch">
+          <figcaption>Step 2: Tree layout</figcaption>
+        </figure>
+        <figure>
+          <img src="images/step3-finishedbase.jpg" alt="Base paint">
+          <figcaption>Step 3: Base paint</figcaption>
+        </figure>
+        <figure>
+          <img src="images/step4-details.jpg" alt="Final details">
+          <figcaption>Step 4: Final touches</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>Mural 2: Hot Air Balloon Theme</h2>
+      <div class="gallery-row">
+        <figure>
+          <img src="images/mural2.jpg" alt="Hot Air Balloon Mural">
+          <figcaption>Main mural view</figcaption>
+        </figure>
+        <figure>
+          <img src="images/step1-tapping.jpg" alt="Taping design">
+          <figcaption>Step 1: Taping design</figcaption>
+        </figure>
+        <figure>
+          <img src="images/step2-ballooncart.jpg" alt="Balloon and cart">
+          <figcaption>Step 2: Balloon & cart</figcaption>
+        </figure>
+        <figure>
+          <img src="images/step3-rollercoaster.jpg" alt="Roller coaster">
+          <figcaption>Step 3: Roller coaster</figcaption>
+        </figure>
+        <figure>
+          <img src="images/step4-final.jpg" alt="Final details">
+          <figcaption>Step 4: Final touches</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
+
+
 
