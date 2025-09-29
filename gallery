@@ -63,6 +63,9 @@
         <figcaption>Step 4: Final touches and protective coating</figcaption>
       </figure>
     </section>
+    <nav>
+      <a href="index.html" class="back-button">Home</a>
+    </nav>
   </main>
 </body>
 </html>
