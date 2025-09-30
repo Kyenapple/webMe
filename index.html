@@ -18,15 +18,18 @@
 			<li><a href="introduction.html">Introduction</a></li>
 			<li><a href="mural1.html">Mural 1</a></li>
 			<li><a href="mural2.html">Mural 2</a></li>
-			<li><a href="gallery.html">Gallery</a>></li>
+			<li><a href="gallery.html">Gallery</a></li>
 		</ul>
 	</nav>
 	<main>
 		<h2>My Artwork Featured</h2>
 		<p>You can find two of my finished murals as well as some of my other completed works through my navigation above.</p>
 	</main>
-	<nav>
-		<a href="index.html" class="back-button">Home</a>
-	</nav>
+	<script>
+		document.getElementById('menu-toggle').addEventListener('click', function() {
+    		let menu = document.getElementById('menu');
+			menu.classList.toggle('visible');
+  		});
+	</script>
 </body>
 </html>
