@@ -2,40 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Second Mural</title>
+  <title>My Second Mural - Welcome to the Circus</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>My Second Mural</h1>
     <nav>
-      <button id="menu-toggle" aria-label="Toggle menu">Menu</button>
+      <button id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
 		    <ul id="menu">
 			    <li><a href="index.html">Home</a></li>
 			    <li><a href="introduction.html">Introduction</a></li>
 			    <li><a href="mural1.html">Mural 1</a></li>
 			    <li><a href="mural2.html">Mural 2</a></li>
-			    <li><a href="gallery.html">Gallery</a>></li>
+			    <li><a href="gallery.html">Gallery</a></li>
 		  </ul>
     </nav>
+  <header>
+    <h1>My Second Mural</h1>
   </header>
   <main>
     <section>
       <h2>About my 2nd Mural</h2>
       <p>This mural was designed for another school that had recently done construction over-top of a previously done mural. This was my first mural ever done that was not made from scratch and kept the previous artist theme!</p>
       <h3>Inspiration</h3>
-      <p>The inspiration behind this mural was mainly to keep the previous artist Ideas while changing the design to fit around the newly constructed door.</p>
+      <p>The inspiration behind this mural was mainly to keep the previous artist ideas while changing the design to fit around the newly constructed door.</p>
       <h3>Planning</h3>
-      <p>This mural was painted along a much longer wall than my first mural, and had multiple design aspects that needed to be pieced together correctly to make sense with the broader picture. My planning process was very in depth with creating these designs while tying them tgehter. I also added my own piece with a balloon cart to subtract away from the dead space up front.</p>
+      <p>This mural was painted along a much longer wall than my first mural, and had multiple design aspects that needed to be pieced together correctly to make sense with the broader picture. My planning process was very in depth with creating these designs while tying them together. I also added my own piece with a balloon cart to subtract away from the dead space up front.</p>
       <h3>Experience</h3>
-      <p>This mural took a longer time to complete. I worked on this mural alone besides the company of friends who would regularly watch the work unfold. The best part was the joy of the children returning back to their classrooms to find the transformation, and the approval of the parents and teachers.</p>
+      <p>This mural took a longer time to complete. I worked on this mural alone besides the company of friends who would regularly watch the work unfold. The best part was the joy of the children returning to their classrooms to find the transformation, and the approval of the parents and teachers.</p>
       <h3>Mural Creation Process</h3>
       <p>
         <strong>Step 1: Taping off the design with the new idea</strong><br>
         <img src="step1-taping.jpeg" alt="Taping off the mural tent" style="width:100%; max-width:500px;">
       </p>
       <p>
-        <strong>Step 2: Completeing the large hot air balloons and creating the balloon cart</strong><br>
+        <strong>Step 2: Completing the large hot air balloons and creating the balloon cart</strong><br>
         <img src="step2-ballooncart.jpeg" alt="Balloon cart sketch" style="width:100%; max-width:500px;">
       </p>
       <p>
@@ -43,7 +43,7 @@
         <img src="step3-rollercoaster.jpeg" alt="Roller coaster update" style="width:100%; max-width:500px;">
       </p>
       <p>
-        <strong>Step 4: Final touches and Details</strong><br>
+        <strong>Step 4: Final touches and details</strong><br>
         <img src="step4-final.jpeg" alt="Final mural details" style="width:100%; max-width:500px;">
       </p>
     </section>
@@ -51,5 +51,13 @@
       <a href="index.html" class="back-button">Home</a>
     </nav>
   </main>
+<script>
+	const toggle = document.getElementById('menu-toggle');
+	const menu = document.getElementById('menu');
+	toggle.addEventListener('click', function () {
+		const isVisible = menu.classList.toggle('visible');
+		toggle.setAttribute('aria-expanded', isVisible);
+	});
+</script>
 </body>
 </html> 
