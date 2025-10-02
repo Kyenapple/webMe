@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My First Mural</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My First Mural - Winnie the Pooh</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,7 +14,7 @@
 			<li><a href="introduction.html">Introduction</a></li>
 			<li><a href="mural1.html">Mural 1</a></li>
 			<li><a href="mural2.html">Mural 2</a></li>
-			<li><a href="gallery.html">Gallery</a>></li>
+			<li><a href="gallery.html">Gallery</a></li>
 		</ul>
   </nav>
   <header>
@@ -32,24 +33,34 @@
       <h3>Mural Creating Process</h3>
       <p>
         <strong>Step 1: Sketching and painting the main characters</strong>
-        <img src="step1-character.jpg" alt="Winnie and Piglet" style="width:100%; max-width:500px;">
+        <img src="step1-character.jpg" alt="Step 1 of the process: Painting the characters Winnie and Piglet" style="width:100%; max-width:500px;">
       </p>
       <p>
         <strong>Step 2: Sketching the tree and laying out base colors</strong>
-        <img src="step2-tree.jpg" alt="Sketching the tree layout" style="width:100%; max-width:500px;">
+        <img src="step2-tree.jpg" alt="Step 2 of the process: Sketching the tree layout from the old winnie the pooh book" style="width:100%; max-width:500px;">
       </p>
       <p>
         <strong>Step 3:Finishing base paint of the tree and starting log painting</strong>
-        <img src="step3-finishedbase.jpg" alt="Finished base painting" style="width:100%; max-width:500px;">
+        <img src="step3-finishedbase.jpg" alt="Step 3 of the process: Finished base painting of the leaves on the trees and the grass around the ground" style="width:100%; max-width:500px;">
       </p>
       <p>
         <strong>Step 4: Adding finishing details</strong>
-        <img src="step4-details.jpg" alt="Adding last details" style="width:100%; max-width:500px;">
+        <img src="step4-details.jpg" alt="Step 4 of the process: Adding last details to the grass and flowers. Finishing the tree leaves and shading" style="width:100%; max-width:500px;">
       </p>
     </section>
+<footer>
     <nav>
-      <a href="index.html">Home</a>
+      <a href="index.html" class="back-button" aria-label="Return to homepage">Home</a>
     </nav>
+</footer>
   </main>
+<script>
+	const toggle = document.getElementById('menu-toggle');
+	const menu = document.getElementById('menu');
+	toggle.addEventListener('click', function () {
+		const isVisible = menu.classList.toggle('visible');
+		toggle.setAttribute('aria-expanded', isVisible);
+	});
+</script>
 </body>
 </html>
